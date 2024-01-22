@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(237, 228, 129);
+}
+
+.header {
+    text-align: center;
+    background-color: rgb(255, 205, 144);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.geninfo {
+    display: flex;
+    flex-direction: row;
+}
+
+.bottext {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: fit-content;
+    margin-left: 10%;
+    padding: 20px;
+    height: fit-content;
+}
+
+.hobpics {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    border-radius: 25px;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+
+.hobbies {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottext,
+.top {
+    text-align: center;
+    background-color: rgb(209, 181, 140);
+    border-radius: 15px;
+    padding-left: 1%;
+    padding-right: 2%;
+}
+
+.top {
+    float: right;
+    background-color: rgb(209, 181, 140);
+    border-radius: 15px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    max-width: fit-content;
+    margin-right: 20%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+p {
+    font-size: 27px;
+}
+
+ul {
+    list-style: none;
+    font-size: 27px;
+}
+
+.title2 {
+    margin-bottom: 0;
+    margin-top: 1%;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+h2{font-size: 55px;}
+img{margin-left: 2%;border-radius: 25px;}
+.hobbyl{line-height: 150%;}

@@ -1,0 +1,34 @@
+.header {
+    text-align: center;
+    background-color: rgb(255, 205, 144);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pr1 {
+    width: 30%;
+    background-color: #5497a7;
+    border-radius: 20px;
+    text-align: center;
+    color: bisque;
+}
+
+.pr2 {
+    width: 35%;
+    background-color: #5497a7;
+    border-radius: 20px;
+    text-align: center;
+    color: bisque;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+}
